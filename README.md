@@ -8,6 +8,8 @@ In progress, all design choices to be explained later
 
 https://www.mudblazor.com/api/mudlist#pages
 
+-- Update 10.04 ProductList component created
+
 2. For Cart use a loop of MudList library components and span telling "You have n items in cart"
 
 Before that inject Cart service to feed data into the component
