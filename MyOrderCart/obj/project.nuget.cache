@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Rd63DTz3fgU=",
+  "dgSpecHash": "+3uk5l4nm2g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vlad\\Source\\Repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Vlad\\source\\repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\mudblazor\\8.5.1\\mudblazor.8.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MyOrderCart",
+    "\\MyOrderCart\\bin",
+    "\\MyOrderCart\\Data",
+    "\\MyOrderCart\\obj",
+    "\\MyOrderCart\\Pages"
   ],
-  "SelectedNode": "\\C:\\Users\\Vlad\\Source\\Repos\\OrderCart",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

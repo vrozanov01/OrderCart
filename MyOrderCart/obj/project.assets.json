@@ -1,11 +1,52 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MudBlazor/8.5.1": {
+        "type": "package",
+        "build": {
+          "build/MudBlazor.targets": {},
+          "buildTransitive/MudBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.props": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MudBlazor/8.5.1": {
+      "sha512": "xzGhtY60e1fvvyI7rJSYYV0UEkvY8niKuTaqby19cb8rELd29EpPU439RVL8KjVSMy473BEcpgYWBRAoDPGl8A==",
+      "type": "package",
+      "path": "mudblazor/8.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Nuget.png",
+        "README.md",
+        "analyzers/dotnet/cs/MudBlazor.Analyzers.dll",
+        "build/Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/MudBlazor.props",
+        "build/MudBlazor.targets",
+        "buildMultiTargeting/MudBlazor.props",
+        "buildTransitive/MudBlazor.props",
+        "lib/net8.0/MudBlazor.dll",
+        "lib/net8.0/MudBlazor.xml",
+        "lib/net9.0/MudBlazor.dll",
+        "lib/net9.0/MudBlazor.xml",
+        "mudblazor.8.5.1.nupkg.sha512",
+        "mudblazor.nuspec",
+        "staticwebassets/MudBlazor.min.css",
+        "staticwebassets/MudBlazor.min.js"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MudBlazor >= 8.5.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Vlad\\.nuget\\packages\\": {},
@@ -15,11 +56,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vlad\\Source\\Repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
+      "projectUniqueName": "C:\\Users\\Vlad\\source\\repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
       "projectName": "MyOrderCart",
-      "projectPath": "C:\\Users\\Vlad\\Source\\Repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
+      "projectPath": "C:\\Users\\Vlad\\source\\repos\\OrderCart\\MyOrderCart\\MyOrderCart.csproj",
       "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vlad\\Source\\Repos\\OrderCart\\MyOrderCart\\obj\\",
+      "outputPath": "C:\\Users\\Vlad\\source\\repos\\OrderCart\\MyOrderCart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -58,6 +99,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[8.5.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
