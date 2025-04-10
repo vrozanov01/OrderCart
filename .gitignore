@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/OrderCart/FileContentIndex/44a8f1be-a420-4f7b-ba2e-d931c2afd3b4.vsidx
+/.vs/OrderCart/FileContentIndex
+/MyOrderCart/obj/Debug/net6.0/MyOrderCart.AssemblyInfo.cs
+/MyOrderCart/obj/Debug/net6.0/MyOrderCart.AssemblyInfoInputs.cache
+/MyOrderCart/obj/Debug/net6.0/MyOrderCart.GeneratedMSBuildEditorConfig.editorconfig
+/MyOrderCart/obj/Release/net6.0/MyOrderCart.AssemblyInfo.cs
+/MyOrderCart/obj/Release/net6.0/MyOrderCart.AssemblyInfoInputs.cache
+/MyOrderCart/obj/Release/net6.0/MyOrderCart.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/slnx.sqlite

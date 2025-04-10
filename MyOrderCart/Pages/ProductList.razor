@@ -1,0 +1,44 @@
+@page "/product-list"
+@using System.Net.Http.Json
+@inject HttpClient Http
+@using MudBlazor
+
+<MudList>
+    @if (Products == null)
+    {
+        <MudText>Loading...</MudText>
+    }
+    else
+    {
+        @foreach (var product in Products)
+        {
+            <MudListItem>
+                <MudListItemText>@product.Title</MudListItemText>
+                <MudListItemText>@product.Description</MudListItemText>
+            </MudListItem>
+        }
+    }
+</MudList>
+
+@code {
+    private List<Product> Products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            Products = await Http.GetFromJsonAsync<List<Product>>("https://fakestoreapi.com/products");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching products: {ex.Message}");
+        }
+    }
+
+    public class Product
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
+}
