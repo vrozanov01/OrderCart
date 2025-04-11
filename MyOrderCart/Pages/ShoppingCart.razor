@@ -1,0 +1,56 @@
+@page "/shopping-cart"
+@using MudBlazor
+@inject NavigationManager Navigation
+
+<MudGrid>
+    <MudItem xs="12" sm="6">
+        <ProductList OnProductSelected="AddToCart" />
+    </MudItem>
+    <MudItem xs="12" sm="6">
+        <MudCard>
+            <MudCardHeader>
+                <MudText Typo="Typo.h6">Shopping Cart Summary</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                @if (CartProducts.Count == 0)
+                {
+                    <MudText>No products selected.</MudText>
+                }
+                else
+                {
+                    <MudList>
+                        @foreach (var product in CartProducts)
+                        {
+                            <MudListItem>
+                                <MudListItemText>@product.Title</MudListItemText>
+                                <MudListItemText>@product.UnitPrice</MudListItemText>
+                            </MudListItem>
+                        }
+                    </MudList>
+                }
+            </MudCardContent>
+            <MudCardActions>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@PlaceOrder">Place Order</MudButton>
+            </MudCardActions>
+        </MudCard>
+    </MudItem>
+</MudGrid>
+
+@code {
+    private List<Product> CartProducts = new List<Product>();
+
+    private void AddToCart(Product product)
+    {
+        if (!CartProducts.Contains(product))
+        {
+            CartProducts.Add(product);
+        }
+    }
+
+    private void PlaceOrder()
+    {
+        // Logic for placing an order goes here
+        Console.WriteLine("Order placed successfully!");
+        CartProducts.Clear();
+    }
+}

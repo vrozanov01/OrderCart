@@ -15,6 +15,7 @@
             <MudListItem>
                 <MudListItemText>@product.Title</MudListItemText>
                 <MudListItemText>@product.Description</MudListItemText>
+                <MudListItemText>@product.UnitPrice</MudListItemText>
             </MudListItem>
         }
     }
@@ -40,5 +41,6 @@
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public int UnitPrice {get; set; }
     }
 }
