@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyOrderCart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d85d4712231a05b7e164652c357c60863a25dd1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c2a43e4e932335aef2e68289da78af70e084ea6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyOrderCart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyOrderCart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
