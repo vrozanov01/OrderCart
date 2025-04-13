@@ -1,0 +1,8 @@
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.AssemblyInfoInputs.cache
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.AssemblyInfo.cs
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.RazorAssemblyInfo.cache
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.RazorAssemblyInfo.cs
+C:\Users\Vlad\Source\Repos\OrderCart\MyOrderCart\obj\Debug\net6.0\MyOrderCart.sourcelink.json
