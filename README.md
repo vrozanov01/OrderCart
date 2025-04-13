@@ -26,3 +26,12 @@ The ShoppingCart component resides in another section for the cart functionality
 
 MudContainer and MudGrid are used for clean layout
 
+
+--Update 13.04
+
+ShoppingCart component is covered with unit test
+
+
+-- Overall best practices used : SRP SOLID principle : each component has unique and separate responsibility, 
+AAA principle for unit test (Arrage, Act, Assert), KISS principle
+
